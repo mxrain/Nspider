@@ -14,12 +14,23 @@ def get_md5(url):
     m.update(url)
     return m.hexdigest()
 
+
+# 从url中提取id
 def get_id(url):
-    # 从url中提取id
     if isinstance(url,str):
         url = url.rsplit("/",1)
-    return url.pop()
+    return int(url.pop())
 
+
+# 从字符串中提取出数字
+def extract_num(text):
+    match_re = re.match(".*?(\d+).*", text)
+    if match_re:
+        nums = int(match_re.group(1))
+    else:
+        nums = 0
+
+    return nums
 
 
 if __name__=="__main__":

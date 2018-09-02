@@ -71,5 +71,8 @@ class RandomUserAgentMiddlware(object):
     def process_request(self, request, spider):
         def get_ua():
             # 根据setting里面的设置选择浏览器，ua.ie, ua.chrome, ua.firefox
-            return getattr(self.ua, self.ua_type) # 实现 self.ua.self.ua_type 这样的操作
+            # getattr() 妙用
+            return getattr(self.ua, self.ua_type)
         request.headers.setdefault('User-Agent', get_ua()) # 设置User-Agent头
+
+

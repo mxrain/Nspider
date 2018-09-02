@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7d783c07-2189-41a7-903c-fdc223a6de02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/Utils/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/Utils/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/Utils/item_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/Utils/item_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Nspider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nspider/spiders/qidian.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nspider/spiders/qidian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +18,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Nspider$item_common.coverage" NAME="item_common Coverage Results" MODIFIED="1535783602437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nspider/Utils" />
-    <SUITE FILE_PATH="coverage/Nspider$main.coverage" NAME="main Coverage Results" MODIFIED="1535802309128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Nspider$item_common.coverage" NAME="item_common Coverage Results" MODIFIED="1535902063497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nspider/Utils" />
+    <SUITE FILE_PATH="coverage/Nspider$main.coverage" NAME="main Coverage Results" MODIFIED="1535906241617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Nspider$startrun.coverage" NAME="startrun Coverage Results" MODIFIED="1535813535328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Nspider$common.coverage" NAME="common Coverage Results" MODIFIED="1535781835922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nspider/Utils" />
     <SUITE FILE_PATH="coverage/Nspider$es_types.coverage" NAME="es_types Coverage Results" MODIFIED="1535791765902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Nspider/models" />
@@ -24,32 +30,35 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="2" />
-          <entry key="py" value="46" />
+          <entry key="jpg" value="4" />
+          <entry key="py" value="66" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="2" />
+          <entry key="Image" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="46" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2387" />
+          <entry key="py" value="3776" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2387" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="3776" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nspider/spiders/qidian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+            <state relative-caret-position="186">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
               </folding>
@@ -68,11 +77,78 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nspider/Utils/item_common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <marker date="1535906237663" expanded="true" signature="124:129" ph="..." />
+                <marker date="1535906237663" expanded="true" signature="275:338" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nspider/Utils/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#100#114#0" expanded="true" />
+                <marker date="1535883283579" expanded="true" signature="144:149" ph="..." />
+                <marker date="1535883283579" expanded="true" signature="303:573" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nspider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="1404">
+              <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nspider/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
+              <folding>
+                <element signature="e#193#250#0" expanded="true" />
+                <marker date="1535899059342" expanded="true" signature="1732:1738" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nspider/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="e#152#165#0" expanded="true" />
+                <marker date="1535906141601" expanded="true" signature="434:439" ph="..." />
+                <marker date="1535906141601" expanded="true" signature="1743:1746" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nspider/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#167#203#0" expanded="true" />
+                <element signature="e#276#1914#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,27 +167,31 @@
       <find>results</find>
       <find>item_completed</find>
       <find>spider_list</find>
+      <find>input_processor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Nspider/main.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/Nspider/Utils/common.py" />
-        <option value="$PROJECT_DIR$/Nspider/spiders/qidian.py" />
-        <option value="$PROJECT_DIR$/Nspider/Utils/item_common.py" />
         <option value="$PROJECT_DIR$/Nspider/models/es_types.py" />
-        <option value="$PROJECT_DIR$/Nspider/items.py" />
-        <option value="$PROJECT_DIR$/Nspider/pipelines.py" />
-        <option value="$PROJECT_DIR$/Nspider/middlewares.py" />
         <option value="$PROJECT_DIR$/startrun.py" />
         <option value="$PROJECT_DIR$/proxyPool/dbManager/proxyDBManager.py" />
+        <option value="$PROJECT_DIR$/Nspider/middlewares.py" />
+        <option value="$PROJECT_DIR$/Nspider/Utils/common.py" />
+        <option value="$PROJECT_DIR$/Nspider/pipelines.py" />
         <option value="$PROJECT_DIR$/Nspider/settings.py" />
+        <option value="$PROJECT_DIR$/Nspider/spiders/qidian.py" />
+        <option value="$PROJECT_DIR$/Nspider/items.py" />
+        <option value="$PROJECT_DIR$/Nspider/Utils/item_common.py" />
       </list>
     </option>
   </component>
@@ -121,9 +201,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="266" />
+    <option name="y" value="28" />
     <option name="width" value="895" />
     <option name="height" value="700" />
   </component>
@@ -163,6 +243,21 @@
           <expand>
             <path>
               <item name="Nspider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nspider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nspider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nspider" type="462c0819:PsiDirectoryNode" />
+              <item name="Nspider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nspider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nspider" type="462c0819:PsiDirectoryNode" />
+              <item name="Nspider" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nspider" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -195,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.startrun">
+  <component name="RunManager" selected="Python.main">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Nspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,10 +410,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.startrun" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.es_types" />
         <item itemvalue="Python.item_common" />
+        <item itemvalue="Python.startrun" />
+        <item itemvalue="Python.es_types" />
         <item itemvalue="Python.common" />
       </list>
     </recent_temporary>
@@ -334,19 +429,27 @@
       <option name="presentableId" value="Default" />
       <updated>1535517629113</updated>
     </task>
+    <task id="LOCAL-00001" summary="text">
+      <created>1535852843303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535852843303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.89522344" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8659476" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.21109399" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3220339" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22033899" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -363,18 +466,18 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.89522344" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5716487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -392,59 +495,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="text" />
+    <option name="LAST_COMMIT_MESSAGE" value="text" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Nspider/spiders/qidian.py</url>
-          <line>41</line>
+          <line>39</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Nspider/items.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Nspider/spiders/qidian.py</url>
+          <url>file://$PROJECT_DIR$/Nspider/Utils/item_common.py</url>
           <line>17</line>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/envs/novel_spider/Lib/site-packages/scrapy/loader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="116" column="40" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/loader/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/images/full/23d207150455fc748094e8e5c1c079344e4d96dc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/114155257/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="3694" column="8" selection-start-line="3694" selection-start-column="8" selection-end-line="3694" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/envs/novel_spider/Lib/site-packages/scrapy/loader/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Nspider/images/full/23d207150455fc748094e8e5c1c079344e4d96dc.jpg" />
     <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/pipelines/images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -452,20 +525,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/images/full/c68bd796367992023457f44b5e753e0251ca72fc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Nspider/images/full/c68bd796367992023457f44b5e753e0251ca72fc.jpg" />
     <entry file="file://E:/envs/article_spider/Lib/site-packages/elasticsearch_dsl/field.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="259" column="17" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
@@ -476,37 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/Utils/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#100#114#0" expanded="true" />
-            <marker date="1535851679721" expanded="true" signature="144:149" ph="..." />
-            <marker date="1535851679721" expanded="true" signature="290:295" ph="..." />
-            <marker date="1535851679721" expanded="true" signature="290:391" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/Utils/item_common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1535851679722" expanded="true" signature="124:129" ph="..." />
-            <marker date="1535851679722" expanded="true" signature="217:233" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/core/engine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#144#158#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#312#2919#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -559,17 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-          <folding>
-            <element signature="e#152#165#0" expanded="true" />
-            <marker date="1535851679734" expanded="true" signature="463:474" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/envs/article_spider/Lib/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -577,118 +599,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py" />
     <entry file="file://$PROJECT_DIR$/Nspider/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_223523.txt" />
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_224840.txt" />
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_224507.txt" />
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_224303.txt" />
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_223851.txt" />
+    <entry file="file://$PROJECT_DIR$/proxy_20180901_223651.txt" />
+    <entry file="file://$PROJECT_DIR$/proxyPool/ProxyPoolWorker.py" />
+    <entry file="file://$PROJECT_DIR$/proxyPool/scrapy/middlewares.py" />
+    <entry file="file://$PROJECT_DIR$/startrun.py" />
+    <entry file="file://$PROJECT_DIR$/proxyPool/dbManager/proxyDBManager.py" />
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/twisted/enterprise/adbapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1179">
+          <caret line="332" column="63" lean-forward="true" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="577" column="42" lean-forward="true" selection-start-line="577" selection-start-column="42" selection-end-line="577" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/fake_useragent/fake.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/core/downloader/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nspider/images/full/d70b2fff455a75c7d3a17606105449476c18bd82.jpg" />
+    <entry file="file://$PROJECT_DIR$/Nspider/images/full/625e233671267805a325e97230f9ec2930275f31.jpg" />
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/loader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="132" column="27" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/114155257/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="4885" column="8" selection-start-line="4885" selection-start-column="8" selection-end-line="4885" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Nspider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="1674">
+          <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
           <folding>
-            <marker date="1535851679745" expanded="true" signature="391:396" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_223523.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_224840.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5503" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_224507.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5239" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_224303.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_223851.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy_20180901_223651.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxyPool/ProxyPoolWorker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#25#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxyPool/scrapy/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
+            <element signature="e#193#250#0" expanded="true" />
+            <marker date="1535899059342" expanded="true" signature="1732:1738" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nspider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="522">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="e#167#203#0" expanded="true" />
+            <element signature="e#276#1914#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/core/downloader/middleware.py">
+    <entry file="file://E:/envs/article_spider/Lib/site-packages/scrapy/loader/processors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="144">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/startrun.py">
+    <entry file="file://$PROJECT_DIR$/Nspider/Utils/item_common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="104">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1535906237663" expanded="true" signature="124:129" ph="..." />
+            <marker date="1535906237663" expanded="true" signature="275:338" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nspider/Utils/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#100#114#0" expanded="true" />
+            <marker date="1535883283579" expanded="true" signature="144:149" ph="..." />
+            <marker date="1535883283579" expanded="true" signature="303:573" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nspider/spiders/qidian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+        <state relative-caret-position="186">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyPool/dbManager/proxyDBManager.py">
+    <entry file="file://$PROJECT_DIR$/Nspider/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="44" selection-start-line="44" selection-end-line="70" selection-end-column="70" />
+        <state relative-caret-position="316">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
-            <element signature="e#38#52#0" expanded="true" />
+            <element signature="e#152#165#0" expanded="true" />
+            <marker date="1535906141601" expanded="true" signature="434:439" ph="..." />
+            <marker date="1535906141601" expanded="true" signature="1743:1746" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nspider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -28,7 +28,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 2
+DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -56,8 +56,8 @@ DOWNLOAD_DELAY = 2
 
 DOWNLOADER_MIDDLEWARES = {
         # 设置UserAgent
-        'Nspider.middlewares.RandomUserAgentMiddlware': 90,
         'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+        'Nspider.middlewares.RandomUserAgentMiddlware': 90,
 }
 # 设置ua的浏览器类型
 RANDOM_UA_TYPE = "random"
@@ -73,7 +73,9 @@ RANDOM_UA_TYPE = "random"
 ITEM_PIPELINES = {
             # 'Nspider.pipelines.NspiderPipeline': 300,
             "Nspider.pipelines.NimgPipeline":2,
-            "Nspider.pipelines.ElasticsearchPipeline":4,
+            # "Nspider.pipelines.MysqlPipeline": 3,
+            "Nspider.pipelines.MysqlTwistedPipeline": 4,
+            "Nspider.pipelines.ElasticsearchPipeline":5,
 }
 # 图片下载文件目录创建
 IMAGES_URLS_FIELD = "img_url"
@@ -104,4 +106,7 @@ IMAGES_STORE = os.path.join(project_dir, 'images')
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 
-
+MYSQL_HOST = "192.168.56.101"
+MYSQL_DBNAME = "novel"
+MYSQL_USER = "mxrain"
+MYSQL_PASSWORD = "password"

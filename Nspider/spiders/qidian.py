@@ -16,7 +16,6 @@ class QidianSpider(CrawlSpider):
                        'book.qidian.com'
                        ]
     start_urls = ['http://www.qidian.com/']
-
     rules = (
         Rule(LinkExtractor(allow=r'info/\d+'), callback='parse_item', follow=True),
     )
@@ -24,8 +23,6 @@ class QidianSpider(CrawlSpider):
     def parse_item(self, response):
 
         item_loader = NspiderItemLoader(item=NspiderItem(),response=response)
-
-
         item_loader.add_css("name","div.book-info h1 em::text")
         item_loader.add_css("author","div.book-info h1 a::text")
         item_loader.add_css("novel_type","div.book-info p.tag a::text")
@@ -35,7 +32,8 @@ class QidianSpider(CrawlSpider):
         item_loader.add_value("novel_url",response.url)
         item_loader.add_value("url_md5",get_md5(response.url))
         item_loader.add_css("img_url","div.book-information div.book-img img::attr(src)")
-        item_loader.add_value("novel_id",get_id(response.url))
+        item_loader.add_value("novel_id", get_id(response.url))
+        item_loader.add_value("img_url_path", "")
 
         novel_item = item_loader.load_item()
 
